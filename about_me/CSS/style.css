@@ -1,0 +1,588 @@
+* {
+	text-align: center;
+}
+
+body {
+	
+}
+
+
+/******************************START HOME PAGE STYLE**********************************/
+.center{
+	text-align: center;
+}
+
+.wrapper .content{
+	overflow: auto;
+	height: 50em;
+	background: url("../images/forest.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+
+.wrapper .content{
+	/*margin-top: 10em;*/
+}
+
+.wrapper .content h3{
+	margin-top: 10em;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 30px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-bottom: 10px;
+}
+
+.wrapper .content h1{
+	margin-top: 11em;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+	color: white;
+	font-size: 60px;
+	margin: 0px;
+}
+
+.wrapper .content .buttons p{
+	/*margin-top: 10em;*/
+	color: white;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	display: inline-block;
+	border: white 1px solid;
+	padding: 10px;
+	margin-right: 20px;
+	width: 80px;
+}
+
+.wrapper .content .buttons p{
+  color:white; 
+  background-color:rgba(0,0,0,0);
+  -o-transition:color .2s ease-out, background .2s ease-in;
+  -ms-transition:color .2s ease-out, background .2s ease-in;
+  -moz-transition:color .2s ease-out, background .2s ease-in;
+  -webkit-transition:color .2s ease-out, background .2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background .2s ease-in;
+}
+
+.wrapper .content .buttons p a{
+	text-decoration: none;
+	color: white;
+}
+
+	.wrapper .content .buttons p:hover { color:#51604D; background:white; }
+	/*.wrapper .content .buttons p a:hover{color: grey; background: white;}*/
+
+
+
+footer {
+  clear: both;
+  color: #bbb;
+  background-color: grey
+}
+
+footer p{
+    font-size: 14px;
+    bottom: 0;
+}
+
+footer li{
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 30px;
+}
+footer li a{
+	color: white;
+	font-family: 'Muli', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+}
+/******************************END HOME PAGE STYLE**********************************/
+
+
+
+
+/******************************START NAV STYLE**********************************/
+#news #nav-ux, #news #nav-about, #news #nav-contact, #news #nav-frontend{
+	font-weight:400;
+	/*font-size: 10px;*/
+	text-decoration: underline;
+}
+
+.wrapper .frontend header ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	padding-right: 20px;
+	border-right: white solid 1px;
+	display: inline-block;
+}
+
+.wrapper .frontend header ul li a:hover{
+	text-decoration: underline;
+	color: #B3B3B3;
+}
+
+.wrapper .frontend header ul li a:last-child{
+	border-right: none;
+}
+
+.wrapper .frontend header ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.wrapper .frontend header{
+	height: 5.5em;
+	padding-left: 50em;
+	padding-top: 5px;
+}
+
+.wrapper .frontend header ul {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	max-width: 600px;
+	width: 95%;
+	padding-left: 0;
+	margin-right: 0;
+	/*float: right;*/
+}
+
+/******************************END NAV STYLE**********************************/
+
+
+/******************************START SECONDARY NAV STYLE**********************************/
+/*.wrapper .frontend .secondary_nav{
+	padding-left: 10em;
+}*/
+
+.wrapper .frontend .secondary_nav ul li a{
+	font-weight: 400;
+	color: #bababa;
+}
+
+.wrapper .frontend .secondary_nav ul{
+	padding-right: 4em;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.wrapper .frontend .secondary_nav ul li{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.wrapper .frontend .secondary_nav ul li a{
+	text-decoration: none;
+	font-color: white;
+}
+
+.wrapper .frontend .secondary_nav ul li a:hover{
+	text-decoration: underline;
+}
+
+/******************************END SECONDARY NAV STYLE**********************************/
+
+
+/******************************START NAV RESPONSIV STYLE**********************************/
+@media screen and (max-width: 1340px) {
+.wrapper .frontend header{
+	padding-left: 30em;
+}
+}
+
+@media screen and (max-width: 1018px) {
+.wrapper .frontend header{
+	padding-left: 1em;
+}
+}
+/******************************END NAV RESPONSIV STYLE**********************************/
+
+
+
+
+/******************************START FRONT-END PAGE STYLE**********************************/
+.wrapper .frontend header{
+	background-color: #383838;
+	/*background: url("../images/forest.jpeg");*/
+	background-position: center left;
+	background-size: cover;
+	margin-bottom: 2em;
+}
+/******************************END FRONT-END PAGE STYLE**********************************/
+
+
+
+
+
+
+
+
+
+/******************************START BOXES STYLE**********************************/
+.wrapper .frontend .boxes{
+	width: 90%;
+	height: 40%;
+	margin-left: 4em;
+	margin-top: 2em;
+	/*border: white solid 1px;*/
+}
+
+.wrapper .frontend .boxes .box{
+	width: 60%;
+	float: left;
+	display: inline-block;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.wrapper .frontend .page_title p{
+	font-size: 3em;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.wrapper .frontend .boxes .box .title, .subtitle, .information, .case_study, .role{
+	display: block;
+}
+
+.wrapper .frontend .boxes .box .subtitle p{
+	font-size: 25px;
+}
+
+.wrapper .frontend .boxes .box .title p{
+	color: grey;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: left;
+}
+
+.wrapper .frontend .boxes .box .information p, .role p{
+	color: black;
+	font-family: 'Muli', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	text-align: left;
+	line-height: 150%;
+}
+
+.wrapper .frontend .boxes .box .subtitle p{
+	color: black;
+	font-family: 'Muli', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	text-align: left;
+}
+.wrapper .frontend .boxes .box .case_study p{
+	color: black;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+}
+
+.wrapper .frontend .boxes .box .case_study p a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+	font-size: 20px;
+	border: black solid 1px;
+	padding: 10px;
+}
+
+.wrapper .frontend .boxes .photo img{
+	width: 30%;
+	height: 30%;
+	display: inline-block;
+	float: right;
+	margin-left: 1em;
+	margin-top: 9em;
+}
+
+.wrapper .frontend .boxes .photo .brian img{
+	margin-top: 5em;
+}
+
+
+.wrapper .frontend .boxes .photo .app img{
+	width: 15%;
+	height: 20%;
+	margin-top: 5em;
+	float: left;
+	margin-left: 5em;
+}
+/******************************END BOXES STYLE**********************************/
+
+
+
+
+/******************************START ABOUT PAGE STYLE**********************************/
+.about{
+	width: 70%;
+	margin: 4em 15em 0em 15em;
+}
+
+.about .words{
+	width: 47%;
+	float: left;
+	text-align: left;
+	margin-bottom: 5em;
+}
+
+.about .words p, a{
+	color: black;
+	font-family: 'Muli', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+	/*padding-left: 2em;*/
+}
+
+.about .words .quote p{
+/*	font-family: 'Ovo';*/
+	font-size: 20px;
+}
+
+.about .selfie img{
+	width: 45%;
+	float: right;
+	display: inline-block;
+	margin-top: 8.2em;
+	margin-right: 1em;
+}
+
+.about .resume{
+	display: inline-block;
+	float: left;
+	padding-top: ;
+	padding-left: 14em;
+	width: 15%;
+}
+
+.about .resume p a{
+	border: solid 1px black;
+	padding: 10px 5px;
+	font-family: 'Muli', sans-serif;
+}
+
+.about .resume p a{
+	text-decoration: none;
+  	color:black; 
+  	padding: 1em 2em;
+}
+
+.about .resume p a:hover{
+	color: white;
+	background: #292929;
+}
+
+/******************************END ABOUT PAGE STYLE**********************************/
+
+
+
+
+/******************************START RESPONSIVE DESIGN: DESKTOP**********************************/
+
+@media screen and (max-width: 1920px) {
+	.wrapper .content{
+	overflow: auto;
+	height: 70em;
+	background: url("../images/forest.jpeg");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+.wrapper .frontend .boxes .photo img{
+	margin-top: 1em;
+}
+
+}
+
+
+@media screen and (max-width: 1599px) {
+	.wrapper .content{
+	overflow: auto;
+	height: 60em;
+	background: url("../images/forest.jpeg");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+
+}
+
+@media screen and (max-width: 1430px) {
+	.wrapper .content{
+	overflow: auto;
+	height: 50em;
+	background: url("../images/forest.jpeg");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+
+}
+
+@media screen and (max-width: 1281px) {
+	.wrapper .content{
+	overflow: auto;
+	height: 50em;
+	background: url("../images/forest.jpeg");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+
+}	
+
+@media screen and (max-width: 950px) {
+	.wrapper .content{
+	overflow: auto;
+	height: 110em;
+	background: url("../images/forest.jpeg"); /*no-repeat center center fixed*/
+	size: cover;
+/*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+	width: 100%;
+	background-position: center;
+}
+
+.about{
+	margin-left: 1em;
+}
+.about .words{
+	width: 80%;
+}
+.about .selfie img{
+	margin-top: 0;
+	width: 60%;
+	float: left;
+}
+.about .resume{
+	float: left;
+	width: 45%;
+	padding-left: 0;
+}
+}
+
+footer li{
+	padding-right: 10px;
+}
+
+
+
+@media screen and (max-width: 420px) {
+	.wrapper .content{
+	overflow: auto;
+	height: 50em;
+	background: url("../images/forest.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+.wrapper .frontend .boxes .box{
+	margin-left: 0em;
+	width: 90%;
+}
+
+
+.wrapper .content .buttons a{
+	width: 100%;
+}
+	.wrapper .content h3{
+		font-size: 1.5em;
+		margin-top: 4em;
+	}
+
+.wrapper .frontend header ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	padding-right: 0px;
+	border-right: white solid 1px;
+	display: inline-block;
+}	
+
+.wrapper .frontend header #nav{
+	padding-left: 0;
+}
+
+.wrapper .frontend header ul li{
+	margin-right: 0;
+}
+
+.wrapper .frontend .secondary_nav ul{
+	padding-right: 0;
+}
+
+.wrapper .frontend .secondary_nav ul li{
+	float: left;
+}
+
+.wrapper .frontend .boxes{
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.wrapper .frontend .boxes .box{
+	margin-left: 2em;
+}
+
+.wrapper .frontend .boxes .photo img{
+	width: 95%;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.wrapper .frontend .boxes .photo .brian img{
+	margin-top: 0;
+}
+
+.wrapper .frontend .boxes .photo .app img{
+	width: 85%;
+	float: right;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.about{
+	margin: 0;
+	width: 100%;
+}
+
+.about .words{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.about .selfie img{
+	width: 100%;
+	float: left;
+	margin-top: 0;
+}
+}
+
+
+
+/*****************************************END MOBILE DESIGN*******************************************/
+
